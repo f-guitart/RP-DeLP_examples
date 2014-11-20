@@ -1,0 +1,11 @@
+:strict
+
+:defeasible
+p.
+q.
+~p :- q.
+~q :- p.
+h :- p.
+h :- q.
+
+:end
